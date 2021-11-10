@@ -4,22 +4,13 @@ A basic text ciphering package
 
 ## Installation
 
-Make sure you are downloading this package with **Python3.9 or above** 
 ```bash
 $ pip install cipher_yx2625
 ```
 
 ## Usage
 
-This package is somewhat simple. It applies caesarian ciphering method to shift text by a specified number of positions right (if the shift parameter is positive) or left (if the shift parameter is negative). 
-
-```python:
-import cipher_yx2625 from cipher_yx2625
-
-#c all cipher function from cipher_yx2625. 
-cipher_yx2625.cipher('Harry', 3) // => 'KduuB'
-cipher_yx2625.cipher('H=rmione',-10) // => 'x=hcYedU'
-```
+- TODO
 
 ## Contributing
 
