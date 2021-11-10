@@ -1,0 +1,34 @@
+:py:mod:`cipher_yx2625.cipher_yx2625`
+=====================================
+
+.. py:module:: cipher_yx2625.cipher_yx2625
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_yx2625.cipher_yx2625.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   This cipher takes string data and 'ciphers' it by shifting each letter by the number of positions specified in the alphabet.
+
+   :param text: Input string data to be encrypted / ciphered
+   :param shift: Number of positions in the alphabet to shift in the right direction
+   :param encrypt: True/False indicator defining whether or not the string is to be encrypted by this function
+
+   :returns: Ciphered text with input string data 'text' shifted the number of units defined by 'shift' input.
+
+   Typical usage example:
+       >>> print([cipher('coding',5)])
+       'htinsl'
+
+
