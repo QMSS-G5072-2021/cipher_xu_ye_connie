@@ -16,7 +16,7 @@ This package is somewhat simple. It applies caesarian ciphering method to shift 
 ```python:
 import cipher_yx2625 from cipher_yx2625
 
-#c all cipher function from cipher_yx2625. 
+#cipher is the only function from cipher_yx2625 at this moment. 
 cipher_yx2625.cipher('Harry', 3) // => 'KduuB'
 cipher_yx2625.cipher('H=rmione',-10) // => 'x=hcYedU'
 ```
