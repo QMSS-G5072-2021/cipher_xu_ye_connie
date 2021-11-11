@@ -16,9 +16,9 @@ This package is somewhat simple. It applies caesarian ciphering method to shift 
 ```python:
 import cipher_yx2625 from cipher_yx2625
 
-# cipher is currently the only cipher function from cipher_yx2625. 
-cipher_yx2625.cipher('Harry', 3) // => 'KduuB'
-cipher_yx2625.cipher('H=rmione',-10) // => 'x=hcYedU'
+# cipher is currently the only function from cipher_yx2625. 
+  cipher_yx2625.cipher('Harry', 3) // => 'KduuB'
+  cipher_yx2625.cipher('H=rmione',-10) // => 'x=hcYedU'
 ```
 
 ## Contributing
